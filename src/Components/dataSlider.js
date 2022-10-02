@@ -1,36 +1,36 @@
+import frustrado from "../images/frustrado.jpg"
+import img1 from "../images/img1.png"
+import mitoRealidad from "../images/mitoRealidad.jpeg"
+import peores from "../images/peores.jpg"
 
-
-const dataSlider = [
+export default [
     {
         id: 1,
-        title: "IPHONE XR",
-        description: "64-128-256GB, colores: Rojo, Blanco, Negro, Azul, Amarillo, Coral",
-        img: 'assets/cel1.jpg',
+        title: '¿Programar después de los 40?',
+        img: img1,
+        link: 'https://www.youtube.com/watch?v=i-qtA-DvmcU&ab_channel=Gerardojao',
+       
     },
     {
         id: 2,
-        title: "IPHONE 8",
-        description: "64-256GB, colores: Negro, Dorado",
-        img: 'assets/cel2.jpg',
+        title: '💡 Frustrado como Programador 💡',
+        img: frustrado,
+        link: 'https://www.youtube.com/watch?v=Ym1ZknpiGEo&t=8s&ab_channel=Gerardojao',
+      
     },
-    {
-        id: 3,
-        title: "IPHONE 7",
-        description: "32-128GB, colores: Negro, Rose Gold",
-        img: 'assets/cel3.jpg',
+    { id: 3,
+        title: "💻 Programar después de los 40's, ¿MITO o REALIDAD? 💻",
+        img: mitoRealidad,
+        link: 'https://www.youtube.com/watch?v=j1-VJefWlW4&t=39s&ab_channel=Gerardojao',
+      
     },
     {
         id: 4,
-        title: "IPHONE 13",
-        description: "128-256GB, colores: Azul, Dorado",
-        img: 'assets/cel4.jpg',
-    },
-    {
-        id: 5,
-        title: "IPHONE 7 PLUS",
-        description: "32-128gb colores: Negro, Plateado, Rose Gold",
-        img: 'assets/cel5.jpg',
-    },
+        title: '🚩 Peores Entrevistas de Programación 🚩',
+        img: peores,
+        link: 'https://www.youtube.com/watch?v=lzuoNwHLFK8&t=63s&ab_channel=Gerardojao',
+      
+    }
+    
 ];
 
-export default dataSlider;

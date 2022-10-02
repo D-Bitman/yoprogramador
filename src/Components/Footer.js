@@ -5,19 +5,42 @@ const Footer = () => {
     return (
 
         <div className="footer">
-            <div className="rrss">
-                <a title="Instagram" href="https://www.instagram.com/applebite_ve/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
-
-                <a title="Whatsapp" href="https://api.whatsapp.com/send?phone=+584160507141" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
-                <a title="Twitter" href="https://twitter.com/gerardojao" target="_blank" rel="noreferrer"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-
-
+    
+        <div className="input-group">
+          
+            <div className="service__content--card">
+                <div className="box">
+                    <div className="text">Suscribete a mis Actualizaciones</div>
+                  
+                </div>
+               <a className="link__home" href="https://www.getrevue.co/profile/gerardojao?via=twitter-card&client=DesktopWeb&element=publication-card"
+                target="_blank" title="Suscríbete al boletín de 💻 PROGRAMAR después de los 40's💻"rel="noopener noreferrer">Suscribete Ahora!</a>    
             </div>
-            <div className="copyright">
-                Created by <a href="https://gerardojao.github.io/gerardojao" target="_blank" rel="noreferrer">Gerardo Arrieta</a> | <span className="far fa-copyright"> 2022 All rights reserved.</span>
-            </div>
-
+         
         </div>
+        
+      <div className="rrss">
+            <a title="Twitter" href="https://twitter.com/gerardojao"
+            target="_blank">
+                <i className="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+
+            <a title="LinkedIn" href="https://linkedin.com/in/gerardojao" target="_blank">
+                <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a title="Youtube" href="https://www.youtube.com/user/gerardojavierao/videos" target="_blank">
+                <i className="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+           
+            <a title="Instagram" href="https://www.instagram.com/gerardojao_dev/"
+                target="_blank"><i className="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>  
+
+        <div className="copyright">Created by  <a target="_blank" href="https://gerardojao.ga">Gerardo Arrieta</a> </div>
+
+       
+    </div>
 
     );
 };
