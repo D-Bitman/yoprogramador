@@ -20,7 +20,7 @@ const Header = () => {
                   <p >Me alegra muchisimo presentarte mi segundo ebook:</p>
                   <h1 ><i>"Mi Experiencia como programador después de los 40's"</i></h1>
                   <p >Por Gerardo Arrieta</p><br />
-                  <p >Acá describo como ha sido mi experiencia a lo largo de un par de años hasta conseguir mi primer empleo como Desarrollador de Software. Te dejo acá el botón de compra:
+                  <p >Acá describo como ha sido mi experiencia a lo largo de un par de años hasta conseguir mi primer empleo como Desarrollador de Software. <br /> Te dejo acá el botón de compra:
                   </p><br />
                   <a className ="link__home" href="https://gerardojao.gumroad.com/l/qtelts"
                   target="_blank" rel="noopener noreferrer">Cómpralo Ya!</a>

@@ -31,12 +31,11 @@ html {
   height:80px;
   width: 100%;
 }
-.navbar__logo{
-margin-top:30px;
-margin-bottom:20px;
-}
+
 .navbar__logo--a img {
  width: 100px;
+ margin-top:30px;
+  margin-bottom:20px;
  } 
 
  /* home section */
@@ -179,7 +178,7 @@ color:white;
   transform: scale(1.05);
 }
 .portfolio__container--carousel .card .text {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 600;
   margin: 10px 0 7px 0;
 
@@ -348,7 +347,7 @@ font-size: 25px;
   }
   .navbar__logo--a img {
     width: 65px;
-    margin-bottom:10px;
+    margin-bottom:30px;
     }
 
 }

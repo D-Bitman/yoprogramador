@@ -10,7 +10,7 @@ const Footer = () => {
           
             <div className="service__content--card">
                 <div className="box">
-                    <div className="text">Suscribete a mis Actualizaciones</div>
+                    <div className="text">Suscribete a <br /> Mi Newsletter</div>
                   
                 </div>
                <a className="link__home" href="https://www.getrevue.co/profile/gerardojao?via=twitter-card&client=DesktopWeb&element=publication-card"
