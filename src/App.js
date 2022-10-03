@@ -16,7 +16,6 @@ function App() {
       <Header />
       <div className="share-button">
         <span>
-
           <i className="fas fa-share-alt"></i>
         </span>
 
