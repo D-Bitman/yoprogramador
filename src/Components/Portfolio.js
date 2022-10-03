@@ -12,11 +12,15 @@ const Portfolio = () => {
                     {data.map(elem=>{
                         return(
                     <div className="card " key={elem.id}>
-                        <div className="box"><a href={elem.link} target="_blank" rel="noopener noreferrer"><img
-                                src={elem.img} alt={elem.title} /></a>
-                        <div className="text">{elem.title}</div><a title="Video Youtube"
-                        href={elem.link} target="_blank"><i className="fas fa-video"
-                            aria-hidden="true"></i></a>
+                        <div className="box">
+                            <a href={elem.link} target="_blank" rel="noopener noreferrer">
+                                 <img src={elem.img} alt={elem.title} />
+                            </a>
+                        <div className="text">{elem.title}</div>
+                        <a title="Video Youtube"
+                        href={elem.link} target="_blank">
+                            <i className="fas fa-video" aria-hidden="true"> </i>
+                        </a>
                         
                         </div>
        
